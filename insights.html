@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Insights | ProPredict Home</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="/" class="brand">
+        <span class="brand-icon">⌂</span>
+        <span>ProPredict <b>Home</b></span>
+    </a>
+
+    <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/properties">Properties</a>
+        <a href="/prediction">Price Prediction</a>
+        <a href="/insights" class="active">Insights</a>
+        <a href="/services">Services</a>
+        <a href="/about">About</a>
+    </nav>
+
+    <a href="/contact" class="nav-button">
+        Get Started
+    </a>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero-content">
+
+        <span class="section-label">
+            PROPERTY INTELLIGENCE
+        </span>
+
+        <h1>
+            Market Insights
+        </h1>
+
+        <p>
+            Explore property trends, locations and
+            useful real-estate information.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="center-heading">
+
+        <span class="section-label">
+            MARKET OVERVIEW
+        </span>
+
+        <h2>
+            Property Market at a Glance
+        </h2>
+
+        <p>
+            Understand different aspects of the property
+            market through simple information.
+        </p>
+
+    </div>
+
+
+    <div class="stats insights-stats">
+
+        <div class="stat">
+            <strong>₹68L</strong>
+            <span>Average Property Value</span>
+        </div>
+
+        <div class="stat">
+            <strong>+8.4%</strong>
+            <span>Example Annual Growth</span>
+        </div>
+
+        <div class="stat">
+            <strong>50+</strong>
+            <span>Locations Covered</span>
+        </div>
+
+        <div class="stat">
+            <strong>10K+</strong>
+            <span>Property Records</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section insights-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                LOCATION INSIGHTS
+            </span>
+
+            <h2>
+                Popular Property Locations
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <div class="location-grid">
+
+        <div class="location-card">
+
+            <div class="location-number">
+                01
+            </div>
+
+            <h3>Mumbai</h3>
+
+            <p>
+                Major residential and commercial
+                property market.
+            </p>
+
+            <strong>
+                Premium Market
+            </strong>
+
+        </div>
+
+
+        <div class="location-card">
+
+            <div class="location-number">
+                02
+            </div>
+
+            <h3>Pune</h3>
+
+            <p>
+                Growing residential market with
+                strong housing demand.
+            </p>
+
+            <strong>
+                Growing Market
+            </strong>
+
+        </div>
+
+
+        <div class="location-card">
+
+            <div class="location-number">
+                03
+            </div>
+
+            <h3>Nashik</h3>
+
+            <p>
+                Residential opportunities across
+                developing areas.
+            </p>
+
+            <strong>
+                Emerging Market
+            </strong>
+
+        </div>
+
+
+        <div class="location-card">
+
+            <div class="location-number">
+                04
+            </div>
+
+            <h3>Thane</h3>
+
+            <p>
+                Well-connected residential locations
+                near Mumbai.
+            </p>
+
+            <strong>
+                Active Market
+            </strong>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="center-heading">
+
+        <span class="section-label">
+            PROPERTY FACTORS
+        </span>
+
+        <h2>
+            What Influences Property Value?
+        </h2>
+
+    </div>
+
+
+    <div class="insight-grid">
+
+        <div class="insight-card">
+
+            <div class="insight-icon">⌂</div>
+
+            <h3>
+                Location
+            </h3>
+
+            <p>
+                Location and connectivity can have
+                a significant effect on property values.
+            </p>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">▦</div>
+
+            <h3>
+                Property Size
+            </h3>
+
+            <p>
+                Built-up area and usable space are
+                important property characteristics.
+            </p>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">↗</div>
+
+            <h3>
+                Market Demand
+            </h3>
+
+            <p>
+                Demand and availability can influence
+                prices in different locations.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="cta">
+
+    <div>
+
+        <span class="section-label">
+            SMART ESTIMATION
+        </span>
+
+        <h2>
+            Want to Estimate a Property?
+        </h2>
+
+        <p>
+            Enter property details and explore an
+            estimated market value.
+        </p>
+
+    </div>
+
+    <a href="/prediction"
+       class="primary-button">
+        Start Prediction →
+    </a>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProPredict Home. All rights reserved.
+        </p>
+
+        <span>
+            Smart Property Solutions
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

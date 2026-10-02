@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ProPredict Home | Smart Property Solutions</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="/" class="brand">
+        <span class="brand-icon">⌂</span>
+        <span>ProPredict <b>Home</b></span>
+    </a>
+
+    <nav class="nav-links">
+
+        <a href="/" class="active">Home</a>
+
+        <a href="/properties">
+            Properties
+        </a>
+
+        <a href="/prediction">
+            Price Prediction
+        </a>
+
+        <a href="/insights">
+            Insights
+        </a>
+
+        <a href="/services">
+            Services
+        </a>
+
+        <a href="/about">
+            About
+        </a>
+
+    </nav>
+
+    <a href="/contact" class="nav-button">
+        Get Started
+    </a>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            SMART PROPERTY PLATFORM
+        </span>
+
+        <h1>
+            Find Your
+            <span>Perfect Home</span>
+        </h1>
+
+        <p>
+            Discover properties, explore market insights,
+            and estimate property values with smart,
+            data-driven technology.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="/properties"
+               class="primary-button">
+                Explore Properties →
+            </a>
+
+            <a href="/prediction"
+               class="secondary-button">
+                Predict Property Price
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <span>
+            SMART PROPERTY ESTIMATE
+        </span>
+
+        <strong>
+            ₹68.5 Lakh
+        </strong>
+
+        <p>
+            Example market estimate
+        </p>
+
+        <div class="hero-card-line">
+            ↗ Data-driven insights
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+    <div class="search-container">
+
+        <div class="search-field">
+
+            <label>LOCATION</label>
+
+            <input
+                type="text"
+                placeholder="Enter city or location">
+
+        </div>
+
+
+        <div class="search-field">
+
+            <label>PROPERTY TYPE</label>
+
+            <select>
+
+                <option>Select type</option>
+                <option>Apartment</option>
+                <option>House</option>
+                <option>Villa</option>
+                <option>Plot</option>
+
+            </select>
+
+        </div>
+
+
+        <div class="search-field">
+
+            <label>BUDGET</label>
+
+            <select>
+
+                <option>Select budget</option>
+                <option>Under ₹40 Lakh</option>
+                <option>₹40L - ₹80L</option>
+                <option>₹80L - ₹1Cr</option>
+                <option>Above ₹1Cr</option>
+
+            </select>
+
+        </div>
+
+
+        <a href="/properties"
+           class="search-button">
+            🔍 Search
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div class="stat">
+
+        <strong>
+            10,000+
+        </strong>
+
+        <span>
+            Properties
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            50+
+        </strong>
+
+        <span>
+            Locations
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            5,000+
+        </strong>
+
+        <span>
+            Users
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            Smart
+        </strong>
+
+        <span>
+            Price Insights
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED PROPERTIES ================= -->
+
+<section class="section featured">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                FEATURED PROPERTIES
+            </span>
+
+            <h2>
+                Explore Popular Properties
+            </h2>
+
+            <p>
+                Browse selected properties from popular
+                locations and price ranges.
+            </p>
+
+        </div>
+
+
+        <a href="/properties"
+           class="outline-button">
+            View All Properties →
+        </a>
+
+    </div>
+
+
+    <div class="property-grid">
+
+
+        <!-- PROPERTY 1 -->
+
+        <article class="property-card">
+
+            <div class="property-image image-one">
+
+                <span>
+                    FOR SALE
+                </span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>
+                    Modern Family Home
+                </h3>
+
+                <p class="location">
+                    📍 Mumbai, Maharashtra
+                </p>
+
+                <div class="property-meta">
+
+                    <span>🛏 3 Beds</span>
+                    <span>🚿 2 Baths</span>
+                    <span>📐 1,450 sq.ft</span>
+
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>
+                        ₹85 Lakh
+                    </strong>
+
+                    <a href="/properties">
+                        View →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 2 -->
+
+        <article class="property-card">
+
+            <div class="property-image image-two">
+
+                <span>
+                    FEATURED
+                </span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>
+                    Luxury City Apartment
+                </h3>
+
+                <p class="location">
+                    📍 Pune, Maharashtra
+                </p>
+
+                <div class="property-meta">
+
+                    <span>🛏 2 Beds</span>
+                    <span>🚿 2 Baths</span>
+                    <span>📐 1,100 sq.ft</span>
+
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>
+                        ₹72 Lakh
+                    </strong>
+
+                    <a href="/properties">
+                        View →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROPERTY 3 -->
+
+        <article class="property-card">
+
+            <div class="property-image image-three">
+
+                <span>
+                    NEW
+                </span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>
+                    Premium Villa
+                </h3>
+
+                <p class="location">
+                    📍 Nashik, Maharashtra
+                </p>
+
+                <div class="property-meta">
+
+                    <span>🛏 4 Beds</span>
+                    <span>🚿 3 Baths</span>
+                    <span>📐 2,400 sq.ft</span>
+
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>
+                        ₹1.25 Cr
+                    </strong>
+
+                    <a href="/properties">
+                        View →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRICE PREDICTION ================= -->
+
+<section class="prediction-preview">
+
+    <div class="prediction-text">
+
+        <span class="section-label">
+            SMART PRICE PREDICTION
+        </span>
+
+        <h2>
+            Know the Estimated Value
+            of Your Property
+        </h2>
+
+        <p>
+            Enter basic property information and get
+            an estimated value using data-driven
+            property analysis.
+        </p>
+
+        <div class="check-list">
+
+            <div>
+                ✓ Property-based estimation
+            </div>
+
+            <div>
+                ✓ Multiple property types
+            </div>
+
+            <div>
+                ✓ Simple and fast results
+            </div>
+
+        </div>
+
+        <a href="/prediction"
+           class="primary-button">
+            Start Prediction →
+        </a>
+
+    </div>
+
+
+    <div class="prediction-preview-card">
+
+        <span>
+            PROPERTY ESTIMATE
+        </span>
+
+        <div class="estimate-price">
+            ₹92.4 Lakh
+        </div>
+
+        <p>
+            Example estimated market value
+        </p>
+
+        <div class="estimate-details">
+
+            <div>
+                <strong>
+                    1,500
+                </strong>
+                <span>
+                    Sq.Ft
+                </span>
+            </div>
+
+            <div>
+                <strong>
+                    3
+                </strong>
+                <span>
+                    Bedrooms
+                </span>
+            </div>
+
+            <div>
+                <strong>
+                    2
+                </strong>
+                <span>
+                    Bathrooms
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INSIGHTS ================= -->
+
+<section class="section insights">
+
+    <div class="center-heading">
+
+        <span class="section-label">
+            MARKET INSIGHTS
+        </span>
+
+        <h2>
+            Understand the Property Market
+        </h2>
+
+        <p>
+            Explore useful information about property
+            prices, locations and market trends.
+        </p>
+
+    </div>
+
+
+    <div class="insight-grid">
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                ↗
+            </div>
+
+            <h3>
+                Property Prices
+            </h3>
+
+            <p>
+                Explore property price information
+                across different locations.
+            </p>
+
+            <a href="/insights">
+                Explore Insights →
+            </a>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                ⌂
+            </div>
+
+            <h3>
+                Popular Locations
+            </h3>
+
+            <p>
+                Discover locations with different
+                property opportunities.
+            </p>
+
+            <a href="/insights">
+                Explore Locations →
+            </a>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                ▦
+            </div>
+
+            <h3>
+                Market Trends
+            </h3>
+
+            <p>
+                Understand changing property trends
+                through available data.
+            </p>
+
+            <a href="/insights">
+                View Trends →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services">
+
+    <div class="center-heading">
+
+        <span class="section-label">
+            OUR SERVICES
+        </span>
+
+        <h2>
+            Everything for Your Property Journey
+        </h2>
+
+        <p>
+            Useful tools and services for discovering,
+            understanding and exploring properties.
+        </p>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+
+            <span>
+                01
+            </span>
+
+            <h3>
+                Property Search
+            </h3>
+
+            <p>
+                Find properties according to location,
+                type and budget.
+            </p>
+
+            <a href="/properties">
+                Explore →
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <span>
+                02
+            </span>
+
+            <h3>
+                Price Prediction
+            </h3>
+
+            <p>
+                Estimate the potential market value
+                of a property.
+            </p>
+
+            <a href="/prediction">
+                Predict →
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <span>
+                03
+            </span>
+
+            <h3>
+                Market Insights
+            </h3>
+
+            <p>
+                Understand property prices and
+                market information.
+            </p>
+
+            <a href="/insights">
+                Discover →
+            </a>
+
+        </div>
+
+
+        <div class="service-card">
+
+            <span>
+                04
+            </span>
+
+            <h3>
+                Property Consultation
+            </h3>
+
+            <p>
+                Get useful information for your
+                property requirements.
+            </p>
+
+            <a href="/contact">
+                Contact →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about">
+
+    <div class="about-image">
+
+        <div class="about-image-text">
+
+            <strong>
+                Smart Property Decisions
+            </strong>
+
+            <span>
+                Powered by data & technology
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <span class="section-label">
+            ABOUT PROPREDICT HOME
+        </span>
+
+        <h2>
+            Making Property Decisions Simpler
+        </h2>
+
+        <p>
+            ProPredict Home brings property discovery,
+            market information and intelligent price
+            estimation together in one modern platform.
+        </p>
+
+        <p>
+            Whether you're exploring a home, comparing
+            properties or understanding property values,
+            the platform is designed to make the experience
+            simple and informative.
+        </p>
+
+        <div class="about-points">
+
+            <div>
+                ✓ Easy property discovery
+            </div>
+
+            <div>
+                ✓ Data-driven insights
+            </div>
+
+            <div>
+                ✓ Modern user experience
+            </div>
+
+        </div>
+
+        <a href="/about"
+           class="outline-button">
+            Learn More →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div>
+
+        <span class="section-label">
+            GET STARTED
+        </span>
+
+        <h2>
+            Ready to Explore Your
+            Next Property?
+        </h2>
+
+        <p>
+            Discover properties and understand
+            their estimated value with ProPredict Home.
+        </p>
+
+    </div>
+
+
+    <div class="cta-buttons">
+
+        <a href="/properties"
+           class="primary-button">
+            Explore Properties
+        </a>
+
+        <a href="/contact"
+           class="secondary-dark-button">
+            Contact Us
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="/" class="brand footer-brand-logo">
+
+                <span class="brand-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    ProPredict <b>Home</b>
+                </span>
+
+            </a>
+
+            <p>
+                Smart property solutions for discovering,
+                understanding and exploring real estate.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Quick Links
+            </h4>
+
+            <a href="/">
+                Home
+            </a>
+
+            <a href="/properties">
+                Properties
+            </a>
+
+            <a href="/prediction">
+                Price Prediction
+            </a>
+
+            <a href="/insights">
+                Market Insights
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Services
+            </h4>
+
+            <a href="/properties">
+                Property Search
+            </a>
+
+            <a href="/prediction">
+                Price Prediction
+            </a>
+
+            <a href="/insights">
+                Market Insights
+            </a>
+
+            <a href="/contact">
+                Consultation
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Contact
+            </h4>
+
+            <span>
+                📍 Maharashtra, India
+            </span>
+
+            <span>
+                📞 +91 98765 43210
+            </span>
+
+            <span>
+                ✉ info@propredicthome.com
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProPredict Home.
+            All rights reserved.
+        </p>
+
+        <span>
+            Smart Property Solutions
+        </span>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

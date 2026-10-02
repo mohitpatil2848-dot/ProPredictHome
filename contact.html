@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | ProPredict Home</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="/" class="brand">
+        <span class="brand-icon">⌂</span>
+        <span>ProPredict <b>Home</b></span>
+    </a>
+
+    <nav class="nav-links">
+
+        <a href="/">Home</a>
+        <a href="/properties">Properties</a>
+        <a href="/prediction">Price Prediction</a>
+        <a href="/insights">Insights</a>
+        <a href="/services">Services</a>
+        <a href="/about">About</a>
+
+    </nav>
+
+    <a href="/contact" class="nav-button">
+        Contact
+    </a>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero-content">
+
+        <span class="section-label">
+            GET IN TOUCH
+        </span>
+
+        <h1>
+            Contact Us
+        </h1>
+
+        <p>
+            Have a property enquiry? Send us a message.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="contact-section">
+
+
+    <div class="contact-info">
+
+        <span class="section-label">
+            CONTACT INFORMATION
+        </span>
+
+        <h2>
+            Let's Connect
+        </h2>
+
+        <p>
+            Send your enquiry and we'll have your
+            information ready for the next step.
+        </p>
+
+
+        <div class="contact-item">
+
+            <div class="contact-icon">
+                📍
+            </div>
+
+            <div>
+                <strong>Location</strong>
+                <span>Maharashtra, India</span>
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <div class="contact-icon">
+                📞
+            </div>
+
+            <div>
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <div class="contact-icon">
+                ✉
+            </div>
+
+            <div>
+                <strong>Email</strong>
+                <span>info@propredicthome.com</span>
+            </div>
+
+        </div>
+
+
+        <div class="contact-item">
+
+            <div class="contact-icon">
+                🕒
+            </div>
+
+            <div>
+                <strong>Working Hours</strong>
+                <span>Mon - Sat | 9:00 AM - 6:00 PM</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact-form-card">
+
+        <span class="section-label">
+            SEND ENQUIRY
+        </span>
+
+        <h2>
+            Tell Us What You Need
+        </h2>
+
+
+        <form id="contact-form">
+
+
+            <div class="form-group">
+
+                <label>Your Name</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Phone Number</label>
+
+                <input
+                    type="tel"
+                    placeholder="Enter your phone number"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Requirement</label>
+
+                <select>
+
+                    <option>Property Search</option>
+                    <option>Price Prediction</option>
+                    <option>Property Information</option>
+                    <option>General Enquiry</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Message</label>
+
+                <textarea
+                    rows="5"
+                    placeholder="Write your message..."
+                ></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="primary-button">
+
+                Send Enquiry →
+
+            </button>
+
+
+            <div id="form-message"></div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProPredict Home. All rights reserved.
+        </p>
+
+        <span>
+            Smart Property Solutions
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

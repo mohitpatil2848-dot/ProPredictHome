@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Properties | ProPredict Home</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="/" class="brand">
+        <span class="brand-icon">⌂</span>
+        <span>ProPredict <b>Home</b></span>
+    </a>
+
+    <nav class="nav-links">
+
+        <a href="/">Home</a>
+        <a href="/properties" class="active">Properties</a>
+        <a href="/prediction">Price Prediction</a>
+        <a href="/insights">Insights</a>
+        <a href="/services">Services</a>
+        <a href="/about">About</a>
+
+    </nav>
+
+    <a href="/contact" class="nav-button">
+        Get Started
+    </a>
+
+</header>
+
+
+<section class="page-hero">
+
+    <div class="page-hero-content">
+
+        <span class="section-label">
+            PROPERTY DISCOVERY
+        </span>
+
+        <h1>
+            Find Your Next Property
+        </h1>
+
+        <p>
+            Explore homes, apartments and villas
+            across popular locations.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="property-search-box">
+
+        <input
+            type="text"
+            id="property-search"
+            placeholder="Search properties, locations or property types..."
+        >
+
+        <select>
+            <option>All Property Types</option>
+            <option>Apartment</option>
+            <option>House</option>
+            <option>Villa</option>
+        </select>
+
+        <select>
+            <option>Any Budget</option>
+            <option>Under ₹50 Lakh</option>
+            <option>₹50 Lakh - ₹1 Crore</option>
+            <option>Above ₹1 Crore</option>
+        </select>
+
+    </div>
+
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                AVAILABLE PROPERTIES
+            </span>
+
+            <h2>
+                Explore Properties
+            </h2>
+
+        </div>
+
+        <span class="property-count">
+            6 Properties
+        </span>
+
+    </div>
+
+
+    <div class="property-grid">
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-1">
+
+                <span>FOR SALE</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Modern Family Home</h3>
+
+                <p class="location">
+                    📍 Mumbai, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 3 Beds</span>
+                    <span>🚿 2 Baths</span>
+                    <span>📐 1,450 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹85 Lakh</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-2">
+
+                <span>FEATURED</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Luxury City Apartment</h3>
+
+                <p class="location">
+                    📍 Pune, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 2 Beds</span>
+                    <span>🚿 2 Baths</span>
+                    <span>📐 1,100 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹72 Lakh</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-3">
+
+                <span>NEW</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Premium Villa</h3>
+
+                <p class="location">
+                    📍 Nashik, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 4 Beds</span>
+                    <span>🚿 3 Baths</span>
+                    <span>📐 2,400 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹1.25 Cr</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-4">
+
+                <span>FOR SALE</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Elegant 2 BHK Home</h3>
+
+                <p class="location">
+                    📍 Thane, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 2 Beds</span>
+                    <span>🚿 2 Baths</span>
+                    <span>📐 980 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹64 Lakh</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-5">
+
+                <span>POPULAR</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Premium 3 BHK Apartment</h3>
+
+                <p class="location">
+                    📍 Navi Mumbai, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 3 Beds</span>
+                    <span>🚿 3 Baths</span>
+                    <span>📐 1,650 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹98 Lakh</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image property-img-6">
+
+                <span>NEW</span>
+
+            </div>
+
+            <div class="property-info">
+
+                <h3>Contemporary Villa</h3>
+
+                <p class="location">
+                    📍 Lonavala, Maharashtra
+                </p>
+
+                <div class="property-meta">
+                    <span>🛏 4 Beds</span>
+                    <span>🚿 4 Baths</span>
+                    <span>📐 2,800 sq.ft</span>
+                </div>
+
+                <div class="property-footer">
+
+                    <strong>₹1.45 Cr</strong>
+
+                    <button class="view-property">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<section class="cta">
+
+    <div>
+
+        <span class="section-label">
+            SMART PROPERTY TOOL
+        </span>
+
+        <h2>
+            Want to Know a Property's Value?
+        </h2>
+
+        <p>
+            Use our property price prediction tool
+            to get an estimated value.
+        </p>
+
+    </div>
+
+    <a href="/prediction"
+       class="primary-button">
+        Predict Property Price →
+    </a>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 ProPredict Home. All rights reserved.
+        </p>
+
+        <span>
+            Smart Property Solutions
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>
